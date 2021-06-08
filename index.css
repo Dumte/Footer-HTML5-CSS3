@@ -1,0 +1,51 @@
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style-type:none;
+}
+header{
+  width: 100%;
+  position:absolute;
+  background-color: #116466;
+  color: white;
+}
+
+header{
+  height: 10vh;
+}
+header h2{
+  position: absolute;
+  margin-top: 20px;
+  left: 20%;
+  border: 3px solid white;
+}
+header span{
+  color:gray;
+}
+footer{
+  bottom:0;
+  height: 15vh;
+  width: 100%;
+  position:fixed;
+  background-color: #116466;
+  color: white;
+}
+footer p{
+  position: absolute;
+  left: 48%;
+  bottom: 20px;
+  color: orange;
+}
+nav{
+  position:absolute;
+  width: 100%;
+}
+nav a{
+  position:relative;
+  left: 45%;
+  top: 20px;
+  margin-right: 20px;
+  text-decoration: none;
+  color: white;
+}
